@@ -2,9 +2,9 @@
   "name": "angular-calendar-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "db.json",
+  "main": "api/server.js",
   "scripts": {
-    "start": "npx json-server --watch db.json --routes routes.json"
+    "start": "node api/server.js"
   },
   "author": "",
   "license": "ISC",
