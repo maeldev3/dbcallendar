@@ -1,8 +1,0 @@
-{
-  "routes": {
-    "/missions": "/missions",
-    "/teams": "/teams",
-    "/members": "/members"
-  },
-  
-}

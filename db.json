@@ -1,64 +1,55 @@
 {
   "members": [
     {
-      "id": "1",
+      "id": 1,
       "name": "John Doe",
       "photoUrl": "assets/image/8256_l.jpg"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Jane Smith",
       "photoUrl": "assets/image/242886011-trainee-de-fumee-gaz-produit-chimique-nuage-de-fumee.jpg"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Mary Grimes",
       "photoUrl": "assets/image/373996.jpg"
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Preston Contreras",
       "photoUrl": "assets/image/242886011-trainee-de-fumee-gaz-produit-chimique-nuage-de-fumee.jpg"
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "Lionel Waters",
       "photoUrl": "assets/image/11205.jpg"
     },
     {
-      "id": "6",
+      "id": 6,
       "name": "Aileen Morin",
       "photoUrl": "assets/image/373996.jpg"
     },
     {
-      "id": "7",
+      "id": 7,
       "name": "Evangeline Curtis",
       "photoUrl": "assets/image/11205.jpg"
     },
     {
-      "id": "8",
+      "id": 8,
       "name": "Hunter Ross",
       "photoUrl": "assets/image/Flip-Clock-49.jpg"
     },
     {
-      "id": "9",
+      "id": 9,
       "name": "May Oliver",
       "photoUrl": "assets/image/3316da902d0d18aef7459091a2fa3c7c.jpg"
-    },
-    {
-      "id": "0",
-      "name": "Membre Developpeur",
-      "photoUrl": "C:\\fakepath\\2-1.jpg"
-    },
-    {
-      "id": "0",
-      "name": "Membre Test",
-      "photoUrl": "C:\\fakepath\\59a92f3c87966d0b3ea5ee329facd5bb.jpg"
     }
+    
   ],
   "teams": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Team A",
       "members": [
         1,
@@ -69,7 +60,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Team B",
       "members": [
         3,
@@ -80,7 +71,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Team C",
       "members": [
         7,
@@ -91,7 +82,7 @@
       ]
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Team information",
       "members": [
         6,
@@ -105,7 +96,7 @@
   ],
   "missions": [
     {
-      "id": "1",
+      "id": 1,
       "title": "Mission 1",
       "description": "Description de la mission 1",
       "color": "#11a1ac",
@@ -118,7 +109,7 @@
       "endDate": "2024-04-09"
     },
     {
-      "id": "2",
+      "id": 2,
       "title": "Update Mission 2",
       "description": "Update Description de la mission 2",
       "color": "#34ad9f",
@@ -131,7 +122,7 @@
       "endDate": "2024-04-11"
     },
     {
-      "id": "3",
+      "id": 3,
       "title": "Mission 3",
       "description": "Description de la mission 3",
       "color": "#5733FF",
@@ -144,7 +135,7 @@
       "endDate": "2024-03-9"
     },
     {
-      "id": "4",
+      "id": 4,
       "title": "Harum quae tempore",
       "description": "Animi ipsam est exp",
       "color": "#fbd2d6",
@@ -153,7 +144,7 @@
       "endDate": "2009-04-05"
     },
     {
-      "id": "5",
+      "id": 5,
       "title": "Update Mission 5",
       "description": "Update Description mission 5",
       "color": "#dfca62",
@@ -162,7 +153,7 @@
       "endDate": "2024-05-02"
     },
     {
-      "id": "6",
+      "id": 6,
       "title": "Mission 6",
       "description": "Description mission 6",
       "color": "#70d192",
@@ -171,7 +162,7 @@
       "endDate": "2024-05-20"
     },
     {
-      "id": "7",
+      "id": 7,
       "title": "In sint dolor lauda",
       "description": "Dolorum eu error vel",
       "color": "#47e17f",
@@ -180,7 +171,7 @@
       "endDate": "2017-04-19"
     },
     {
-      "id": "8",
+      "id": 8,
       "title": "Quisquam ullamco qui",
       "description": "Error commodo magni ",
       "color": "#126008",
@@ -189,90 +180,13 @@
       "endDate": "2024-07-12"
     },
     {
-      "id": "9",
+      "id": 9,
       "title": "Sed quos magna iusto",
       "description": "Rerum nesciunt veli",
       "color": "#28af98",
       "teamId": 0,
       "startDate": "2024-05-05",
       "endDate": "2024-05-14"
-    },
-    {
-      "id": "10",
-      "title": "Debitis adipisicing ",
-      "description": "In officia cupidatat",
-      "color": "#d00bb6",
-      "teamId": 0,
-      "startDate": "2024-03-01",
-      "endDate": "2024-03-04"
-    },
-    {
-      "id": "11",
-      "title": "Est odio elit sapie",
-      "description": "Sapiente nostrum pos",
-      "color": "#a656ab",
-      "teamId": 0,
-      "startDate": "2011-09-18",
-      "endDate": "1971-12-27"
-    },
-    {
-      "id": "12",
-      "title": "Eaque enim anim illo",
-      "description": "Voluptatum labore ex",
-      "color": "#3344b5",
-      "teamId": "",
-      "startDate": "1987-07-30",
-      "endDate": "1975-02-17"
-    },
-    {
-      "id": "13",
-      "title": "Ab impedit aliquid ",
-      "description": "Corrupti maxime lab",
-      "color": "#1327b6",
-      "teamId": "",
-      "startDate": "1997-04-13",
-      "endDate": "1985-04-04"
-    },
-    {
-      "id": "14",
-      "title": "Nisi dolorem eu est ",
-      "description": "Tenetur et officiis ",
-      "color": "#7004a1",
-      "teamId": 0,
-      "startDate": "2024-03-12",
-      "endDate": "1970-09-16"
-    },
-    {
-      "id": "15",
-      "title": "Consectetur asperna",
-      "description": "Cum illo ut nulla co",
-      "color": "#6637ed",
-      "teamId": "1",
-      "startDate": "1994-05-23",
-      "endDate": "2009-12-10"
-    },
-    {
-      "id": "17",
-      "title": "Eum numquam ratione ",
-      "description": "Nemo mollit ut volup",
-      "color": "#d56a72",
-      "teamId": "3",
-      "startDate": "1983-06-17",
-      "endDate": "2022-06-10"
-    },
-    {
-      "id": "18",
-      "title": "Ab cumque alias pari",
-      "description": "Totam est enim ad cu",
-      "color": "#adc18d",
-      "teamId": "",
-      "startDate": "0001-06-30",
-      "endDate": "1974-12-30"
     }
-  ],
-  "routes": {
-    "/missions": "/missions",
-    "/teams": "/teams",
-    "/members": "/members"
-  }
+  ]
 }
