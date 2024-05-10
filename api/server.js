@@ -2,20 +2,9 @@
 const jsonServer = require('json-server')
 
 const server = jsonServer.create()
-// const router = jsonServer.router('db.json')
+const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 
-
-const fetch = require('node-fetch'); 
-const dbUrl = 'https://dbcallendar.vercel.app/';
-
-async function getDbData() {
-  const response = await fetch(dbUrl);
-  const data = await response.json();
-  return data;
-}
-
-const router = jsonServer.router(getDbData); 
 
 server.use(middlewares)
 // Add this before server.use(router)
