@@ -2,20 +2,22 @@
 const jsonServer = require('json-server')
 var fs = require("fs");
 const server = jsonServer.create()
-const router = jsonServer.router('db.json')
+// const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 
 
 
- exports.handler = async function (event, context) {
-  try {
-    await fs.writeFile('/tmp/test.txt', 'testing'); // Use promises for async handling
-    context.succeed('writeFile succeeded');
-  } catch (error) {
-    console.error('writeFile failed:', error); // Log errors for debugging
-    context.fail('writeFile failed: ' + error.message); // Return detailed error message
-  }
-};
+// Replace with the URL of your separate server hosting db.json
+const dbUrl = 'https://dbcallendar.vercel.app/';
+
+async function getDbData() {
+  const response = await fetch(dbUrl);
+  const data = await response.json();
+  return data;
+}
+
+const router = jsonServer.router(getDbData); 
+
 
 
 server.use(middlewares)
